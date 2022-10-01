@@ -5,8 +5,9 @@ from datetime import datetime
 
 def main():
     # Set paths - desktop & new path
+    # Include trailing slash '/'
     initial_path = os.path.expanduser("~/Desktop/")
-    new_path = "/Users/Idris/Desktop/Desktop/"
+    new_path = initial_path + "Desktop/"
 
     # File count for stats
     file_count = 0
