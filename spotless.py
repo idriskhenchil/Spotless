@@ -1,4 +1,4 @@
-# Desktop Cleaner
+# Spotless
 import os
 from pathlib import Path
 from datetime import datetime
@@ -6,7 +6,7 @@ from datetime import datetime
 def main():
     # Set paths - desktop & new path
     initial_path = os.path.expanduser("~/Desktop/")
-    new_path = "/YOUR/NEW/PATH/HERE"
+    new_path = "/YOUR/NEW/PATH/HERE/"
 
     # File count for stats
     file_count = 0
