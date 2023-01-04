@@ -30,4 +30,4 @@ Now all you need to do is run the script.
 python spotless.py
 ```
 
-Requires: Python 3
+**Requires: Python 3**
